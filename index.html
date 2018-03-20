@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: gray;
+	font: 90% Arial. Helvetica, sans-serif;
+	margin: 20px;
+}
+
+label {
+	color: navy;
+	float: left;
+	width: 8em;
+	font-weight: bold;
+	text-align: right;
+}
+
+input {
+	width: 15em;
+	margin-left: 1em;
+	margin-bottom: .5em;
+}
+
+input:focus {
+	border: 2px solid navy;
+}
+
+#button, #reset{
+	width: 7em;
+	box-shadow; 2px 2px 0 navy;
+	background-color: silver;
+}
+
+#button {
+	margin-left: 7em;
+}
+
+h1 {
+	color: white;
+	text-align: left;
+	text-decoration: underline;
+
+}
+
+div {
+	background-color: white;
+	width: 25%;
+	border: 25px solid black;
+	padding 50px;
+	margin: 10px;
+ 
+ 
+	
+}
+
+</style>
+<title>Login Page</title>
+</head>
+<body>
+<h1>Signing up is fast and easy!</h1><br>
+<div>
+	<label for="firstname">First Name:</label>
+	<input type="text" name="firstname" id="firstname" autofocus><br>
+	<label for="lastname">Last Name:</label>
+	<input type="text" name="lastname" id="lastname"><br>
+	<label for="email">Email:</label>
+	<input type="text" name="email" id="email"><br>
+	<label for="phone">Phone:</label>
+	<input type="text" name="phone" id="phone"><br>
+	<label for="dob">Date of Birth:</label>
+	<input type="text" name="dob" id="dob"><br>
+	<label for="gender">Gender:</label><br>
+	<input type="radio" name="gender" value="male" checked> Male<br>
+	<input type="radio" name="gender" value="female"> Female<br>
+	<input type="radio" name="gender" value="other"> Other<br>
+	<input type="submit" value="Submit">
+	<input type="reset">
+</div>
+
+</body>
+
+</html>
+
+
